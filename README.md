@@ -12,14 +12,14 @@ Web application, client registry using Asp.Net Framework 4.6.1 and SQL Server.
 ## Requirements
 
 - IIS
-- SQL Server DB
+- Microsoft .NET Core SDK
+- Microsoft SQL Server Express LocalDB
 
 ## Tecnologies
 
 - C# 
 - ASP.NET 4.6.1
-- WEB API (RESTful)
-- JSON
+- JQuery
 - Bootstrap
 - MSSQL
 
