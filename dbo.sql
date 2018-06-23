@@ -5,14 +5,14 @@
  Source Server Type    : SQL Server
  Source Server Version : 13004001
  Source Host           : (LocalDb)\MSSQLLocalDB:1433
- Source Catalog        : aspnet-crud_aspnet-20180621020854
+ Source Catalog        : crudaspnet
  Source Schema         : dbo
 
  Target Server Type    : SQL Server
  Target Server Version : 13004001
  File Encoding         : 65001
 
- Date: 22/06/2018 20:50:37
+ Date: 23/06/2018 16:41:22
 */
 
 
@@ -156,9 +156,9 @@ GO
 
 CREATE TABLE [dbo].[Clientes] (
   [Codigo] int  IDENTITY(1,1) NOT NULL,
-  [Nome] nvarchar(max) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
+  [Nome] nvarchar(max) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
   [Email] nvarchar(max) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
-  [Telefone] bigint  NOT NULL,
+  [Telefone] int  NOT NULL,
   [Endereco] nvarchar(max) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
   [Bairro] nvarchar(max) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
   [Cidade] nvarchar(max) COLLATE SQL_Latin1_General_CP1_CI_AS  NULL,
@@ -180,6 +180,9 @@ INSERT INTO [dbo].[Clientes] ([Codigo], [Nome], [Email], [Telefone], [Endereco],
 GO
 
 INSERT INTO [dbo].[Clientes] ([Codigo], [Nome], [Email], [Telefone], [Endereco], [Bairro], [Cidade], [Estado]) VALUES (N'2', N'Beatriz', N'beatriz@aaa.com', N'888888888', N'asdasdasda', N'aaaaa', N'bbbbb', NULL)
+GO
+
+INSERT INTO [dbo].[Clientes] ([Codigo], [Nome], [Email], [Telefone], [Endereco], [Bairro], [Cidade], [Estado]) VALUES (N'4', N'Leticia', N'leticia@aaa.com', N'9999999', N'aaaaaaaaaaa', N'bbbbbbb', N'xxxxxx', NULL)
 GO
 
 SET IDENTITY_INSERT [dbo].[Clientes] OFF
