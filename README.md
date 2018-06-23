@@ -23,6 +23,17 @@ Web application, client registry using Asp.Net Framework 4.6.1 and SQL Server.
 - Bootstrap
 - MSSQL
 
+## Connection
+
+Change the Web.config file according to the connection of your database.
+
+```
+  <connectionStrings>
+    <add name="DefaultConnection" connectionString="Server=(LocalDb)\MSSQLLocalDB;Database=crudaspnet;User ID=;Password=;Trusted_Connection=False;"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+```
+
 ## Demonstration
 
 You can see the system working by clicking the link below:
