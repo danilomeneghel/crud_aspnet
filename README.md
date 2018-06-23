@@ -23,6 +23,15 @@ Web application, client registry using Asp.Net Framework 4.6.1 and SQL Server.
 - Bootstrap
 - MSSQL
 
+## Demonstration
+
+You can see the system working by clicking the link below:
+http://crudaspnet.gearhostpreview.com/
+
+- Login:
+	- Email: admin@admin.com
+	- Password: #Admin123
+
 ## License
 
 Laravel Admin is licensed under <a href="LICENSE">The MIT License (MIT)</a>.

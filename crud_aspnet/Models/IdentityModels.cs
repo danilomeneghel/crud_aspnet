@@ -18,16 +18,18 @@ namespace crud_aspnet.Models
         }
     }
 
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public class crudaspnet : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext()
+        public crudaspnet()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
 
-        public static ApplicationDbContext Create()
+        public static crudaspnet Create()
         {
-            return new ApplicationDbContext();
+            return new crudaspnet();
         }
+
+        public System.Data.Entity.DbSet<Clientes> Clientes { get; set; }
     }
 }

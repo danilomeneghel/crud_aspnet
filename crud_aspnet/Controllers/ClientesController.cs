@@ -13,7 +13,7 @@ namespace crud_aspnet.Controllers
     [Authorize]
     public class ClientesController : Controller
     {
-        private Contexto db = new Contexto();
+        private crudaspnet db = new crudaspnet();
 
         // GET: Clientes
         public ActionResult Index()

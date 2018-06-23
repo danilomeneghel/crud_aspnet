@@ -1,11 +1,11 @@
 ﻿@model IEnumerable<crud_aspnet.Models.Clientes>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Clientes";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Clientes</h2>
+<h2>@ViewBag.Title</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
