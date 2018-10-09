@@ -36,7 +36,7 @@ Change the Web.config file according to the connection of your database.
 
 ## Demonstration
 
-You can see the system working by clicking the link below:
+You can see the system working by clicking the link below:<br>
 http://crudaspnet.gearhostpreview.com/
 
 - Login:
@@ -54,3 +54,8 @@ Laravel Admin is licensed under <a href="LICENSE">The MIT License (MIT)</a>.
 ![Screenshots](screenshots/screenshot03.png)<br><br>
 ![Screenshots](screenshots/screenshot04.png)<br><br>
 ![Screenshots](screenshots/screenshot05.png)<br><br>
+
+Developed by<br>
+Danilo Meneghel<br>
+danilo.meneghel@gmail.com<br>
+http://danilomeneghel.github.io/<br>
